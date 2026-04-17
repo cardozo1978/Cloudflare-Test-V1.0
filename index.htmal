@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web - Gustavo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 { font-size: 3em; margin-bottom: 20px; }
+        p { font-size: 1.4em; max-width: 600px; margin: 0 auto 30px; }
+        .boton {
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border: 8px solid white;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://via.placeholder.com/300" alt="Tu foto">
+    <h1>¡Hola! Soy Gustavo Cardozo</h1>
+    <p>Esta es mi primera página web creada desde cero y publicada GRATIS con Cloudflare.</p>
+    <a href="#" class="boton">Contáctame</a>
+</body>
+</html>
